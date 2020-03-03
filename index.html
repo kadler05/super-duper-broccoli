@@ -1,57 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>FHSU Tigers - Encore Ticket Information</title>
+	<title>San Joaquin Valley Town Hall</title>
+	<meta charset="utf-8">
 	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-	<header>
-		<img src="images/tiger-logo.jpg" alt="FHSU Tiger Logo" />
-		<h1 class = "shadow">FHSU Tigers</h1>
-	</header>
-	<main>
-		<section id="ticketInfo">
-			<h2 class = "shadow">Encore Ticket Information</h2>
-			<p>
-				There are several different options to consider when purchasing tickets for Encore performances. Season Tickets are available for purchase from August through October each season and provide our patrons with the best value.  A set of Season Tickets consists of one ticket to each of the eight Encore Series performances. Individual Show Tickets can also be purchased prior to each performance; on sale date varies for each show, but are usually on sale approximately two weeks prior to the performance. Specialty packages vary from year to year but may also be offered throughout the season.
-			</p>
-		</section>
-		<section id="quote">
-			<blockquote>
-				&ldquo;Are you not entertained?&rdquo; -- <i>Ridley Scott&apos;s Maximus</i>
-			</blockquote>
-		</section>
-		<section id="ticketPrices">
-			<img src="images/ticket.jpg" alt="Ticket Image" />
-			<h2 class = "shadow">Season Ticket Prices</h2>
-			<ul>
-				<li>General Public:</li>
-					<ul>
-						<li>Reserved Seating: $195</li>
-						<li>Unreserved Seating: $170</li>
-					</ul>
-				<li>FHSU Student:</li>
-				<ul>
-					<li>Reserved Seating: $120</li>
-					<li>Unreserved Seating: $95</li>
-				</ul>
-			</ul>
-		</section>
-		<section id="disclaimer">
-			<h3>Disclaimer:</h3>
-			<p><i>This page is a class exercise for INF250 Introduction to Web Development.</i> Here is a link to the <a href="https://www.fhsu.edu/encore/ticketinfo/index">real FHSU Encore Ticket Information page</a>.</p>
-		</section>
-	</main>
-	<footer>
-        <p>
-            <i>* Ticket fees and sales tax are not included in the price of the ticket.</i>
-        </p>
-		<p>&copy; <span id="year"></span> Fort Hays State University</p>
-	</footer>
-	<script type="text/javascript" src="js/main.js"></script>
+    <header>
+        <img src="images/logo.gif" alt="Town Hall Logo">
+        <h2>San Joaquin Valley Town Hall</h2>
+        <h3>Bringing cutting-edge speakers to the valley</h3>
+    </header>
+    <nav id="nav_menu">
+    	<ul>
+    		<li><a class="current" href="index.html">Home</a></li>
+    		<li><a  href="#">Speakers</a>
+            	<ul>
+                	<li><a href="#">Jeffrey Toobin</a></li>
+                    <li><a href="#">Andrew Ross Sorkin</a></li>
+                    <li><a href="#">Amy Chua</a></li>
+                    <li><a href="sampson.html">Scott Sampson</a>
+                    	<ul>
+                        	<li><a href="#">September 2013</a></li>
+                    		<li><a href="#">February 2018</a></li>
+                        </ul>
+                    </li>    
+                    <li><a href="#">Carlos Eire</a></li>
+                    <li><a href="#">Ronan Tynan</a></li>
+                </ul>
+            </li>
+            <li><a href="tickets.html">Get Tickets</a></li>
+    		<li><a href="members.html">Become a Member</a></li>
+    		<li class="lastitem"><a href="aboutus.html">About Us</a></li>         
+    	</ul>
+    </nav>
+    <main>
+        <aside>
+            <h2>Lecture notes</h2>
+            <h3>Event change for November</h3>
+            <p class="news_item">SJV Town Hall is pleased to announce the addition of award-winning author Andrew Ross Sorkin. 
+            The appearance of previously scheduled speaker, Greg Mortenson, has been postponed.</p>
+            <h3>Lecture day, time, and location</h3>
+            <p class="news_item">All one-hour lectures are on the second Wednesday of the month beginning at 10:30 a.m. at William Saroyan Theatre, 
+            700 M Street, Fresno, CA.</p>
+        </aside>
+        <section>
+        	<h1>This season's guest speakers</h1>
+        	<nav>
+                <ul>
+                    <li>October: <a class="date_passed" href="speakers/toobin.html">Jeffrey Toobin</a></li>
+                    <li>November: <a class="date_passed" href="speakers/sorkin.html">Andrew Ross Sorkin</a></li>
+                    <li>January: <a href="speakers/chua.html">Amy Chua</a></li>
+                    <li>February: <a href="sampson.html">Scott Sampson</a></li>
+                    <li>March: <a href="speakers/eire.html">Carlos Eire</a></li>
+                    <li>April: <a href="speakers/tynan.html">Ronan Tynan</a></li>
+                </ul>
+            </nav>
+            <h2>Looking for a unique gift?</h2>
+            <p>Town Hall has the answer. For only $100, you can get 
+            a book of tickets for all of the remaining speakers. And the bargain includes a 
+            second book of tickets for a companion.</p>
+            <p>Or, for $50, you can give yourself the gift of our speakers, and still get an extra
+            ticket for a companion, but for just one of the events.</p>
+            <p>See you at the next show?</p>
+            <p>Contact us by phone at (559) 555-1212 for ticket information.</p>
+        </section>
+
+    </main>
+    <footer>
+		<p>&copy; Copyright 2018 San Joaquin Valley Town Hall.</p>
+    </footer>
 </body>
 </html>
